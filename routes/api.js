@@ -42,9 +42,6 @@ module.exports = function (app) {
     } else {
       res.json(data);
     }
-
-    // document.getElementById('result').innerHtml = 
-    // document.querySelector('#result').innerHtml = '<p> this is my result </p>';
   });
 
   app.use((req, res, next) => {
