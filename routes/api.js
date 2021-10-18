@@ -30,10 +30,8 @@ module.exports = function (app) {
 
     let response = '';
     if (initNum === 'invalid number' && initUnit === 'invalid unit') {
-      //res.status(200).type('text').send('invalid number');
       response = 'invalid number and unit';
     } else if (initUnit === 'invalid unit') {
-      //res.status(200).type('text').send('invalid unit');
       response = initUnit;
     } else if (initNum === 'invalid number') {
       response = initNum;
